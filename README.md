@@ -55,18 +55,18 @@
 
 ## Book
 
-Get -> `/api/books/'` -> Получить все книги (с фильтрацией)
-Get -> `/api/books/{id}` -> Получить книгу по ID
-Post -> `/api/books` -> Создать новую книгу
-Patch -> `/api/books/{id}` -> Обновить книгу
-Delete -> `/api/books/{id}` -> Удалить книгу
-Get -> `/api/categories` -> Получить список категорий
-Get -> `/api/authors` -> Получить список авторов
+ - Get -> `/api/books/'` -> Получить все книги (с фильтрацией)
+ - Get -> `/api/books/{id}` -> Получить книгу по ID
+ - Post -> `/api/books` -> Создать новую книгу
+ - Patch -> `/api/books/{id}` -> Обновить книгу
+ - Delete -> `/api/books/{id}` -> Удалить книгу
+ - Get -> `/api/categories` -> Получить список категорий
+ - Get -> `/api/authors` -> Получить список авторов
 
 ## Схема книги
 ```json
 {
-     "id": "string",
+    "id": "string",
   "name": "string",
   "category": "string",
   "author": "string",
