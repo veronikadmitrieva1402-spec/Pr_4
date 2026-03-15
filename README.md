@@ -3,11 +3,11 @@
 Было реализовано веб-приложение интернет-магазина книг с возможностью просмотра каталога, добавления, редактирования и удаления книг. Проект включает в себя backend(Express) и frontend(React) с документацией API через Swagger.
 
 ## Backend
--**Node.js** - среда выполнения JavaScript
--**Express.js**-веб-фреймворк
--**nanoid**-генерация уникальных идентификаторов
--**cors**-middleware для CORS
--**swagger-jsdoc**, **swagger-ui-express** - документация API
+- **Node.js** - среда выполнения JavaScript
+- **Express.js**-веб-фреймворк
+- **nanoid**-генерация уникальных идентификаторов
+- **cors**-middleware для CORS
+- **swagger-jsdoc**, **swagger-ui-express** - документация API
 
 ## Frontend
 - **React** - библиотека для пользовательских интерфейсов
